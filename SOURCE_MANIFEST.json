@@ -65,10 +65,11 @@
     },
     {
       "path": "src/recyclerecordreview/core.py",
-      "sha256": "739f3cb189f3da8207d683884096f7a71dbc67477b6be959da6da9282c92fc91",
-      "bytes": 4402
+      "sha256": "221507536a66cda8385c0022e401606824f69f1676f96f8b3c1b51a9b3be883c",
+      "bytes": 4718
     }
   ],
   "source_review": "Upstream rifiuti-vista accepts a file or directory, locates matching $R files and prints full paths. The new isolated $I validator omits those entry points.",
-  "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten."
+  "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten.",
+  "current_reaudit": "REAUDIT_20261002.json"
 }
