@@ -1,0 +1,14 @@
+{
+  "project": "RecycleRecordReview",
+  "status": "PASS",
+  "test_count": 13,
+  "wheel": "recyclerecordreview-1.0.0-py3-none-any.whl",
+  "wheel_sha256": "51337656bcf7c6a915cd4bafde9eea40bc20c140a25b4e22beae75e82b06e8a4",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}

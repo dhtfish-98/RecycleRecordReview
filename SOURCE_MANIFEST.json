@@ -1,0 +1,74 @@
+{
+  "source_repo": "abelcheung/rifiuti2",
+  "source_commit": "40f185bb7535355c07d9fdef736b87af6b239c63",
+  "scope": "Isolated Windows Recycle Bin $I versions 1 and 2: exact record sizing, UTF-16 path envelope, terminator/padding, declared size and representable FILETIME; paths are reduced to character counts and absolute/relative declaration.",
+  "license": "BSD-3-Clause",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1503,
+      "lines": 28,
+      "sha256": "518a347b4cd5fbef874a12d23c439934d11dd4a5e936cd21ef65f2fd6dadc94f",
+      "url": "https://raw.githubusercontent.com/abelcheung/rifiuti2/40f185bb7535355c07d9fdef736b87af6b239c63/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2936,
+      "lines": 83,
+      "sha256": "23b234bacc75ea523b36e02b0c4fb08e59e80b6eb013f20f985631f0abf6bc01",
+      "url": "https://raw.githubusercontent.com/abelcheung/rifiuti2/40f185bb7535355c07d9fdef736b87af6b239c63/README.md"
+    },
+    {
+      "path": "src/rifiuti-vista.c",
+      "bytes": 11213,
+      "lines": 361,
+      "sha256": "559b4a38a4fa2cafdb8a08e77d00faccb049b13bfc9659ab64b2a97261165d46",
+      "url": "https://raw.githubusercontent.com/abelcheung/rifiuti2/40f185bb7535355c07d9fdef736b87af6b239c63/src/rifiuti-vista.c"
+    },
+    {
+      "path": "src/utils-conv.c",
+      "bytes": 14619,
+      "lines": 466,
+      "sha256": "7893f826b99372a07be4140b72a4f69baa303371c5719e27e46504851d30f0e9",
+      "url": "https://raw.githubusercontent.com/abelcheung/rifiuti2/40f185bb7535355c07d9fdef736b87af6b239c63/src/utils-conv.c"
+    },
+    {
+      "path": "src/utils.h",
+      "bytes": 7341,
+      "lines": 236,
+      "sha256": "66c8df6fd9b2c6d9c544354d23c49ca0f5c6912397786accaabf68e65fe73b38",
+      "url": "https://raw.githubusercontent.com/abelcheung/rifiuti2/40f185bb7535355c07d9fdef736b87af6b239c63/src/utils.h"
+    },
+    {
+      "path": "test/rifiuti-schema.json",
+      "bytes": 1943,
+      "lines": 83,
+      "sha256": "6fa2930c9f278bc59341ca8e8f582a3c87934258c010f504b87d48fca1796d1b",
+      "url": "https://raw.githubusercontent.com/abelcheung/rifiuti2/40f185bb7535355c07d9fdef736b87af6b239c63/test/rifiuti-schema.json"
+    }
+  ],
+  "new_runtime_files": [
+    "src/recyclerecordreview/__init__.py",
+    "src/recyclerecordreview/__main__.py",
+    "src/recyclerecordreview/core.py"
+  ],
+  "implementation_files": [
+    {
+      "path": "src/recyclerecordreview/__init__.py",
+      "sha256": "38582950d26e35b221eb5e109dc3283861d1300bcd8b1a0bef233bc8ff76a761",
+      "bytes": 49
+    },
+    {
+      "path": "src/recyclerecordreview/__main__.py",
+      "sha256": "889f673c2145e28095264339dbb3be024859a0bd7242435c479850567be2fd49",
+      "bytes": 49
+    },
+    {
+      "path": "src/recyclerecordreview/core.py",
+      "sha256": "739f3cb189f3da8207d683884096f7a71dbc67477b6be959da6da9282c92fc91",
+      "bytes": 4402
+    }
+  ],
+  "source_review": "Upstream rifiuti-vista accepts a file or directory, locates matching $R files and prints full paths. The new isolated $I validator omits those entry points.",
+  "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten."
+}
