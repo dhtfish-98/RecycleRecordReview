@@ -1,5 +1,7 @@
 # RecycleRecordReview
 
+New implementation author: **dhtfish98**. Current package version: **1.0.2**.
+
 Enables an analyst to identify truncated or malformed deletion records without exposing the deleted filename.
 
 ## Supported project scope
