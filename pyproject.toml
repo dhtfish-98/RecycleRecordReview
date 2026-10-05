@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "recyclerecordreview"
-version = "1.0.2"
+version = "1.0.3"
 authors = [{ name = "dhtfish98" }]
 description = "Bounded offline evidence review: RecycleRecordReview"
 requires-python = ">=3.10"
